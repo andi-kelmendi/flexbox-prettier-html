@@ -11,34 +11,25 @@ body {
 .cart {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: black;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	border-radius: 10px;
-    display: flex;
-    padding: 10px;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+    gap: 0 12px;
 }
 
 h3 {
-    font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	font-size: 15px;
 	color: white;
-    padding-left: 10px;
+	padding-left: 10px;
 }
 
 .text {
-    background-color: #2d2d2d;
-    color: #dcdcdc;
-    padding: 20px;
-    margin-bottom: 30px;
-    width: 300px;
-    border-radius: 8px;
-    margin-left: 10px;
-    margin-right: 43px;
-    border-left: 7px solid #ea00ff;
-
+	background-color: #2d2d2d;
+	color: #dcdcdc;
+	padding: 20px;
+	border-radius: 8px;
+	border-left: 7px solid #ea00ff;
 }
 
 .text span {
@@ -51,45 +42,51 @@ h3 {
 }
 
 .language {
-    display: flex;
-    gap: 33px;
+	display: flex;
+	flex-direction: row;
+	gap: 33px;
 }
 
 .html {
-    color: rgb(2, 172, 2);
+	color: rgb(2, 172, 2);
 	background-color: rgba(0, 128, 0, 0.534);
-    border: 2px solid rgb(2, 172, 2);
+	border: 2px solid rgb(2, 172, 2);
 	border-radius: 30px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 25px;
 	padding-right: 25px;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .css {
-    color: rgb(2, 172, 2);
+	color: rgb(2, 172, 2);
 	background-color: rgba(0, 128, 0, 0.534);
-    border: 2px solid rgb(2, 172, 2);
+	border: 2px solid rgb(2, 172, 2);
 	border-radius: 30px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 25px;
 	padding-right: 25px;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .js {
-    color: rgb(2, 172, 2);
+	color: rgb(2, 172, 2);
 	background-color: rgba(0, 128, 0, 0.534);
-    border: 2px solid rgb(2, 172, 2);
+	border: 2px solid rgb(2, 172, 2);
 	border-radius: 30px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 25px;
 	padding-right: 25px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+}
+
+.gauche {
+	display: flex;
+	flex-direction: column;
+}
+
+.droite {
+	display: flex;
+	flex-direction: column;
+    height: 100%;
 }
